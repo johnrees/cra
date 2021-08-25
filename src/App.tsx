@@ -1,20 +1,12 @@
+import { useWallet } from "@solana/wallet-adapter-react";
 import React from "react";
 
 function App() {
+  const { connected, publicKey } = useWallet();
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {connected ? `hello ${publicKey?.toBase58()}` : "please connect"}
       </header>
     </div>
   );

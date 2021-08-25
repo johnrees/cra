@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import { SolanaWalletWrapper } from "./components/SolanaWalletWrapper";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SolanaWalletWrapper>
+      <App />
+    </SolanaWalletWrapper>
   </React.StrictMode>,
   document.getElementById("root")
 );
