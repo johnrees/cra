@@ -65,7 +65,6 @@ const TokenList: React.FC = () => {
     <table role="main">
       {tokenAccounts.map(({ uiAmount, mint }) => {
         const token = tokenList?.tokens?.find((t: any) => t.address === mint);
-        console.log(token);
         return (
           <tr key={mint}>
             <td>{uiAmount}</td>
