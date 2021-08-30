@@ -68,12 +68,13 @@ const TokenList: React.FC = () => {
         return (
           <tr key={mint}>
             <td>{uiAmount}</td>
+            <td>{token?.symbol}</td>
             <td>
               {token ? (
                 <>
-                  <img src={token.logoURI} />
+                  <img src={token.logoURI} alt={`${token.name} logo`} />
                   <span>
-                    {token.name} ({token.symbol})
+                    {token.name}
                   </span>
                 </>
               ) : (
