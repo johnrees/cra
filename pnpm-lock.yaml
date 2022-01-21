@@ -14,7 +14,7 @@ specifiers:
   react-dom: 17.0.2
   react-scripts: 5.0.0
   typescript: 4.5.4
-  web-vitals: 2.1.2
+  web-vitals: 2.1.4
 
 dependencies:
   react: 17.0.2
@@ -32,7 +32,7 @@ devDependencies:
   craco-esbuild: 0.4.3_66b49c99af659d7c23050d0db8706453
   react-scripts: 5.0.0_react@17.0.2+typescript@4.5.4
   typescript: 4.5.4
-  web-vitals: 2.1.2
+  web-vitals: 2.1.4
 
 packages:
 
@@ -10335,8 +10335,8 @@ packages:
       minimalistic-assert: 1.0.1
     dev: true
 
-  /web-vitals/2.1.2:
-    resolution: {integrity: sha512-nZnEH8dj+vJFqCRYdvYv0a59iLXsb8jJkt+xvXfwgnkyPdsSLtKNlYmtTDiHmTNGXeSXtpjTTUcNvFtrAk6VMQ==}
+  /web-vitals/2.1.4:
+    resolution: {integrity: sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==}
     dev: true
 
   /webidl-conversions/4.0.2:
